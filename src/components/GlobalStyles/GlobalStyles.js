@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components/macro';
-import { COLORS } from '../../constants';
+import { createGlobalStyle } from "styled-components/macro";
+import { COLORS } from "../../constants";
 
 const GlobalStyles = createGlobalStyle`
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -70,6 +70,7 @@ table {
 html {
   --color-white: hsl(${COLORS.white});
   --color-primary: hsl(${COLORS.primary});
+  --color-primary-bright: hsl(${COLORS.primaryBrigh});
   --color-secondary: hsl(${COLORS.secondary});
   --color-gray-100: hsl(${COLORS.gray[100]});
   --color-gray-300: hsl(${COLORS.gray[300]});
